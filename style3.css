@@ -10,4 +10,7 @@ h1 {
  margin: 1rem;
 }
 main {
-  box-shadow: rgba 0,0,0,0.9;
+  margin-top: 1rem;
+  padding: 3rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
