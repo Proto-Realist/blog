@@ -2,6 +2,9 @@ header {
   background-color: yellow;
   padding: 1rem;
 }
+body {
+  background-color: #f9f9f9;
+}
 h1 {
  font-family: sans-serif;
  font-color: green;
