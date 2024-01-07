@@ -8,9 +8,9 @@ body {
 }
 h1 {
  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
- font-color: green;
+ color: green;
  text-align: center;
- text-size: 3rem;
+ font-size: 3rem;
  margin: 1rem;
 }
 main {
