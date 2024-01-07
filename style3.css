@@ -10,7 +10,10 @@ h1 {
  margin: 1rem;
 }
 main {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 1rem;
-  padding: 3rem;
+  padding: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
