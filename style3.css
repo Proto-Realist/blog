@@ -9,3 +9,5 @@ h1 {
  text-size: 3rem;
  margin: 1rem;
 }
+main {
+  box-shadow: rgba 0,0,0,0.9;
