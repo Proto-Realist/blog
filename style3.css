@@ -7,7 +7,7 @@ body {
   font-family: Arial, sans-serif;
 }
 h1 {
- font-family: sans-serif;
+ font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
  font-color: green;
  text-align: center;
  text-size: 3rem;
@@ -20,5 +20,4 @@ main {
   margin-top: 1rem;
   padding: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-  font-family: Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
 }
