@@ -3,10 +3,6 @@ header {
   padding: 1rem;
   border: 2rem solid #008000;
 }
-body {
-  background-color: #f9f9f9; /*grey*/
-  font-family: Arial, sans-serif;
-}
 h1 {
  font-family: Curlz MT;
  color: #A0522D;/*brown*/
@@ -14,6 +10,8 @@ h1 {
  font-size: 3rem;
 }
 main {
+  background-color: #f9f9f9; /*grey*/
+  font-family: Arial, sans-serif;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
