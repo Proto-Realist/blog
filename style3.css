@@ -3,6 +3,7 @@ header {
   padding: 1rem;
 }
 body {
+  border: solid;
   background-color: #f9f9f9; /*grey*/
   font-family: Arial, sans-serif;
 }
