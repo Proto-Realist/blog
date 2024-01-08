@@ -1,9 +1,9 @@
 header {
   background-color: #8FBC8B;/*dark*/
   padding: 1rem;
+  border: 2rem solid;
 }
 body {
-  border: 2rem solid;
   background-color: #f9f9f9; /*grey*/
   font-family: Arial, sans-serif;
 }
