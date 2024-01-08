@@ -1,14 +1,14 @@
 header {
-  background-color: #8FBC8B;
+  background-color: #8FBC8B;/*dark*/
   padding: 1rem;
 }
 body {
-  background-color: #f9f9f9;
+  background-color: #f9f9f9; /*grey*/
   font-family: Arial, sans-serif;
 }
 h1 {
  font-family: Curlz MT;
- color: #A0522D;
+ color: #A0522D;/*brown*/
  text-align: center;
  font-size: 3rem;
 }
