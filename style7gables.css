@@ -1,1 +1,32 @@
 
+header {
+  background-color: #3B3B3B; /* Dark slate gray */
+  padding: 1rem;
+  border: 1rem solid #008000;/*green*/
+}
+body {
+  background-color: #2F4F4F; /* Darker shade for border */
+}
+h1 {
+ font-family: sans-serif;
+ color: #D3D3D3; /* Light gray for contrast */
+ text-align: center;
+ font-size: 3rem;
+}
+h2 {
+  color: #D3D3D3; /* Light gray for contrast */
+  text-align: center;
+}
+main {
+  background-color: #797979; /* Lighter gray */
+  font-family: Arial, sans-serif;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 1rem;
+  padding: 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+a {
+  color: #8A2BE2; /* A shade of purple for an eerie touch */
+}
