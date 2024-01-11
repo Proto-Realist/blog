@@ -1,20 +1,20 @@
 
 header {
-  background-color: #3B3B3B; /* Dark slate gray */
+  background-color: #2F4F4F; /* Dark slate gray */
   padding: 1rem;
-  border: 1rem solid #008000;/*green*/
+  border: 1rem solid #404040; /* Dark gray for border, resembling bare trees */
 }
 body {
-  background-color: #2F4F4F; /* Darker shade for border */
+  background-color: #626567; /* Medium gray for the main content area, resembling fog or mist */
 }
 h1 {
  font-family: sans-serif;
- color: #D3D3D3; /* Light gray for contrast */
+ color: #EAECEE; /* Light gray for contrast*/
  text-align: center;
  font-size: 3rem;
 }
 h2 {
-  color: #D3D3D3; /* Light gray for contrast */
+  color: #EAECEE; /* Light gray for contrast */
   text-align: center;
 }
 main {
