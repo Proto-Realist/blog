@@ -3,6 +3,9 @@ header {
   padding: 1rem;
   border: 1rem solid #008000;/*green*/
 }
+body {
+  background-color: #87CEEB
+}
 h1 {
  font-family: sans-serif;
  color: #A0522D;/*brown*/
