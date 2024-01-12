@@ -38,24 +38,17 @@
   }
   
   nav ul li a {
-    font-size: 24px;
+    text-shadow: 2px 2px 3px black;
+    font-size: 30px;
     color: orange;
     padding: 0.5rem 1rem;
     text-decoration: none;
   }
   
   nav ul li a:hover {
-    background-color: #477da8;
+    background-color: #b75221;
   }
-  
-  article {
-    margin-bottom: 10rem;
-  }
-  
-  article p {
-    line-height: 1.5;
-  }
-  
+   
   footer {
     text-align: center;
     padding: 1rem 0;
