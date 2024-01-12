@@ -18,9 +18,7 @@
 
   
   header {
-    background: #477da8;
-    color: #fff;
-    padding: 1rem 0;
+    background: #41d5ed;
     text-align: center;
   }
   
@@ -35,37 +33,29 @@
     font-style: italic;
   }
   
-  /*nav ul {
+  nav ul {
     list-style: none;
-    background-color: #444;
+    
     text-align: center;
     padding: 0.5rem 0;
-  }*/
+  }
   
   nav ul li {
     display: inline;
   }
   
- /* nav ul li a {
-    color: white;
+  nav ul li a {
+    color: orange;
     padding: 0.5rem 1rem;
     text-decoration: none;
   }
   
   nav ul li a:hover {
-    background-color: #555;
-  }*/
-  
-  main {
-    padding: 1rem;
-    background: transparent;
-    max-width: 800px;
-    margin: 20px auto;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #477da8;
   }
   
   article {
-    margin-bottom: 1rem;
+    margin-bottom: 10rem;
   }
   
   article p {
@@ -75,7 +65,6 @@
   footer {
     text-align: center;
     padding: 1rem 0;
-    background: #333;
-    color: #fff;
+ 
   }
   
