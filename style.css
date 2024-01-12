@@ -12,6 +12,8 @@
     background-color: #f4f4f4;*/
     background-image: url("DALLE-android1.png");
     background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
   }
    
 
