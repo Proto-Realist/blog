@@ -34,10 +34,12 @@
   }
   
   nav ul li {
+    text-align: center;
     display: inline;
   }
   
   nav ul li a {
+    text-align: center;
     font-weight: bold; /* Makes the text bold */
     font-size: 30px;
     color: orange;
@@ -46,6 +48,7 @@
   }
   
   nav ul li a:hover {
+    text-align: center;
     background-color: #b75221;
   }
    
