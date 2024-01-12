@@ -10,7 +10,13 @@
     background-size: cover;
   }
    
-
+  nav a {
+    font-size: 24px;
+    font-family: Verdana, sans-serif;
+    font-weight: bold;
+    color: #007bff;
+    text-decoration: none;
+  }
   
   header {
     background: #41d5ed;
