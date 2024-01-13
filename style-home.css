@@ -32,10 +32,12 @@
   }
   
   nav ul li a {
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
+    border-radius: 5px; /* to give rounded corners */
     font-weight: bold; /* Makes the text bold */
     font-size: 30px;
     color: orange;
-    padding: 1rem;
+    padding: 1px;
     text-decoration: none;
   }
   
@@ -44,6 +46,10 @@
   }
    
   footer {
+    position: fixed;
+    bottom: 9px;
+    left: 50%;
+    transform: translateX(-50%);
     text-align: center;
     color: orange;
     text-shadow: 2px 2px 3px black;
