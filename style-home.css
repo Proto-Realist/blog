@@ -81,3 +81,15 @@
     text-shadow: 2px 2px 3px black;
   }
   
+  footer nav ul {
+  list-style-type: none; /* Removes bullet points */
+  padding: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  display: flex; /* Displays list items inline */
+  justify-content: center; /* Centers the list items */
+  gap: 10px; /* Adds some space between list items */
+  }
+
+  footer nav ul li {
+    display: inline; /* Displays list items inline */
+  }
