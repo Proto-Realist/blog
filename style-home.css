@@ -28,7 +28,7 @@
   }
   
   .background-image {
-    background-image: url('DALLE-clouds.png');
+    background-image: url('DALLE-mist.png');
     background-repeat: no-repeat;
     background-size: cover; /* The background image will cover the entire element */
     background-position: center;
