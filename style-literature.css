@@ -3,9 +3,6 @@ header {
 }
 
 body {
-    background-image: url("DALLE-book2.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    background-attachment: fixed;
+    background-color: skyblue;
+    
 }
