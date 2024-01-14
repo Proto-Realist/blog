@@ -29,29 +29,6 @@
     font-size: 1.2rem;
     font-style: italic;
   }
-  
-  /*.background-image {
-    background-image: url('DALLE-mist.png');
-    background-repeat: no-repeat;
-    background-size: cover; /* The background image will cover the entire element */
-    background-position: center;
-    position: relative; /* This allows the child element to be positioned absolutely within */
-    height: 100vh; /* Example height, can be set to the height of your choice */
-    width: 100%; /* This will make the div take the full width of the viewport */
-  }*/
-  
-  /*.foreground-image {
-    background-image: url('DALLE-android1.png');
-    background-repeat: no-repeat;
-    background-size: contain; /* The foreground image will be contained within the element */
-    background-position: center;
-    position: absolute; /* This positions the foreground image within the background-image div */
-    top: 0;
-    left: 0;
-    height: 100%; /* Match the parent size */
-    width: 100%; /* Match the parent size */
-  }*/
-  
 
   nav ul li {
     display: inline;
