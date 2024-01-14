@@ -4,4 +4,8 @@ header {
 
 body {
     background-image: url("DALLE-book1.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    background-attactchment: fixed;
 }
