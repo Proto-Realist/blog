@@ -10,3 +10,7 @@ body {
 #book-garden {
     position: relative;
 }
+
+li:hover {
+    background-color: aquamarine;
+}
