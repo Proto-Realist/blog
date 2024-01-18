@@ -16,6 +16,7 @@ li:hover {
 }
 nav ul li {
     text-decoration: none;
+    
 }
 nav ul {
     display: flex;
