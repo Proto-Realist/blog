@@ -14,7 +14,10 @@ body {
 li:hover {
     background-color: aquamarine;
 }
-
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
 .left-link {
     text-align: left;
 }
