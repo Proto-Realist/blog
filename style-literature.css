@@ -4,6 +4,7 @@ body {
     background-color: skyblue;
   }
 #title {
+    position: absolute;
     margin-left: 10%;
 }
 
