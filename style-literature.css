@@ -19,7 +19,7 @@ nav ul li {
     
 }
 nav ul {
-    display: flex;
+    display: inline;
     justify-content: space-between;
 }
 .left-link {
