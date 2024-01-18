@@ -1,12 +1,12 @@
-header {
-    text-align: center;
-}
 
 body {
     font-family: 'Arial', 'sans-serif';
     background-color: skyblue;
   }
-  
+#title {
+    margin-left: 25%;
+}
+
 #book-garden {
     position: relative;
     top: 20px;
