@@ -9,6 +9,9 @@ body {
   
 #book-garden {
     position: relative;
+    width: 400px;
+    height: 400px;
+    float: right;
 }
 
 li:hover {
@@ -27,4 +30,9 @@ nav ul {
 }
 .right-link {
     text-align: right;
+}
+
+footer {
+    position: fixed;
+    bottom: 9px;
 }
