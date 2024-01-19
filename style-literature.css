@@ -4,7 +4,7 @@ body {
     font-family: 'sans-serif';
 }
 
-.header-text {
+.header-content {
     text-align: left;
     display: flow-root;
 
@@ -21,7 +21,7 @@ body {
 h1 {
     font-size: 3rem;
     margin-left: 10%;
-    margin-bottom: 1%;
+    margin-bottom: 5%;
 }
 
 p {
