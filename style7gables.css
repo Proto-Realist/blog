@@ -27,6 +27,14 @@ main {
   padding: 1rem;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
+
+main {
+  display: flow-root;
+}
+
+img {
+  float: right;
+}
 /*a {
   color: #8A2BE2; A shade of purple for an eerie touch
 } */
