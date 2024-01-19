@@ -1,20 +1,14 @@
-.container {
+.header-content {
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
-    text-align: center;
 }
 
-ul {
-    list-style-type: none; /* Removes bullet points */
-    padding: 0; /* Removes default padding */
+.text-content {
+    text-align: left;
 }
 
-li {
-    margin-bottom: 10px; /* Adds some space between list items */
-}
-
-footer {
-    text-align: center;
-    margin-top: 20px;
+.header-image {
+    width: 150px; /* Adjust as needed */
+    height: auto;
 }
