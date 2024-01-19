@@ -4,17 +4,11 @@ body {
     font-family: 'sans-serif';
 }
 
-.top-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.top-text {
+.header-text {
     text-align: left;
 }
 
-.top-image {
+.header-image {
     width: 400px;
     height: auto;
 }
