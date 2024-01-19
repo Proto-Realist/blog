@@ -4,19 +4,28 @@ body {
     font-family: 'sans-serif';
 }
 
+.header-text {
+    text-align: left;
+    display: flow-root;
+
+}
+
 .header-image {
-    width: 400px;
+    width: 45vw;
     height: auto;
     float: right;
+    margin: 10px;
+    padding: 2px;
 }
 
 h1 {
     font-size: 3rem;
-    margin-left: 15%;
+    margin-left: 10%;
     margin-bottom: 1%;
 }
 
 p {
+    max-width: 40vw;
     margin: 20px;
     padding: 20px;
     background-color: white;
@@ -28,12 +37,12 @@ ul li {
     list-style: none;
 }
 
-
 ul li:hover {
     background-color: gray;
 }
 
 .supplemental {
+    float: right;
     width: 33vw;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
