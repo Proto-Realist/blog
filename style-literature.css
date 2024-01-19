@@ -1,5 +1,6 @@
 body {
     background-color: antiquewhite;
+    font-family: 'Arial', 'sans-serif';
 }
 
 .top-content {
@@ -32,6 +33,7 @@ p {
 
 ul li {
     text-decoration: none;
+    list-style: none;
 }
 
 .link-right {
