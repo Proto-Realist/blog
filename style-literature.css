@@ -38,5 +38,6 @@ ul li {
 }
 
 .link-right {
-    content: right;
+    display: flex;
+    justify-content: flex-end;
 }
