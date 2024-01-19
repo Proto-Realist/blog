@@ -1,3 +1,7 @@
+body {
+    background-color: antiquewhite;
+}
+
 .top-content {
     display: flex;
     justify-content: space-between;
