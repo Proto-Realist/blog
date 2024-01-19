@@ -41,8 +41,18 @@ ul li:hover {
     background-color: gray;
 }
 
+.book-reviews {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    width: 40vw;
+}
 .supplemental {
     float: right;
-    width: 33vw;
+    width: 40vw;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+    margin: 1rem;
+}
+
+footer {
+    position: absolute;
+    bottom: 1px;
 }
