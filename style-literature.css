@@ -8,7 +8,7 @@
     text-align: left;
 }
 
-.header-image {
-    width: 300px; /* Adjust as needed */
-    height: 300px;
+.top-image {
+    width: 400px;
+    height: auto;
 }
