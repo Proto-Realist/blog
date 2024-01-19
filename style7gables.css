@@ -5,6 +5,8 @@ header {
   border: 1rem solid #404040; /* Dark gray for border, resembling bare trees */
 }
 body {
+  color: black;
+
   background-color: #626567; /* Medium gray for the main content area, resembling fog or mist */
 }
 h1 {
