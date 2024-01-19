@@ -1,10 +1,10 @@
-.header-content {
+.top-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.text-content {
+.top-text {
     text-align: left;
 }
 
