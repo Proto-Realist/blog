@@ -13,6 +13,7 @@ h1 {
  font-size: 3rem;
 }
 main {
+  color: black;
   background-color: #f9f9f9; /*grey*/
   font-family: Arial, sans-serif;
   max-width: 1000px;
