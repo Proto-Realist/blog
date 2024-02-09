@@ -32,27 +32,41 @@ p {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
 }
 
-ul li {
-    text-decoration: none;
-    list-style: none;
-}
-
 ul li:hover {
     background-color: gray;
 }
 
-.book-reviews {
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-    width: 40vw;
+
+.content-container {
+    display: flex;
+    justify-content: space-between; /* Adjusts the spacing between the children */
+    align-items: flex-start; /* Aligns items at the start of the container vertically */
+    flex-wrap: wrap; /* Allows items to wrap to the next line if there's not enough space */
 }
-.supplemental {
-    float: right;
-    width: 40vw;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
-    margin: 1rem;
+
+.book-reviews, .supplemental {
+    flex: 1; /* Allows both sections to grow and take up equal space */
+    margin: 10px; /* Adds some space around the sections */
+    /* You can set a min-width to prevent them from getting too narrow */
+    min-width: 300px; /* Example minimum width */
 }
 
 footer {
     position: absolute;
     bottom: 1px;
+}
+
+h3 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+ul li {
+    list-style-type: none; /* Removes bullet points */
+    margin-left: 0;
+    padding-left: 0;
 }
