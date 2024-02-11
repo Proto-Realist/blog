@@ -1,72 +1,140 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background-image: url('DALLE-android1.png');
+  /* Other styles... */
+}
 
-  
-  body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: #9b9081;
-    background-image: url("DALLE-android1.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: contain;
-  }
-   
-  
-  header {
-    background: #417eaa;
-    text-align: center;
-        text-shadow: 2px 2px 3px #1be9f7;
+header {
+  background: rgba(49, 120, 152, 0.6); /* Adjust transparency with the last number (alpha channel) */
 
-  }
-  
-  header h1 {
-    margin: 0;
-    font-size: 2.5rem;
-  }
-  
-  header h2 {
-    margin-top: 0rem;
-    font-size: 1.2rem;
-    font-style: italic;
-  }
+  color: #ffffff;
+  padding: 2rem 0;
+  text-align: center;
+}
 
-  nav ul li {
-    display: inline;
-  }
-  
-  nav ul li a {
-    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
-    border-radius: 5px; /* to give rounded corners */
-    font-weight: bold; /* Makes the text bold */
-    font-size: 25px;
-    color: orange;
-    padding: 1px;
-    text-decoration: none;
-  }
-  
-  nav ul li a:hover {
-    background-color: #b75221;
-  }
-   
-  footer {
-    position: fixed;
-    bottom: 9px;
-    left: 50%;
-    transform: translateX(-50%);
-    text-align: center;
-    color: orange;
-    text-shadow: 2px 2px 3px black;
-  }
-  
-  footer nav ul {
-  list-style-type: none; /* Removes bullet points */
-  padding: 0; /* Removes default padding */
-  margin: 0; /* Removes default margin */
-  display: flex; /* Displays list items inline */
-  justify-content: center; /* Centers the list items */
-  gap: 10px; /* Adds some space between list items */
-  }
+header h1 {
+  margin: 0;
+  font-size: 3rem;
+    }
+    
 
-  footer nav ul li {
-    display: inline; /* Displays list items inline */
-  }
+header p {
+  font-size: 1.5rem;
+  font-style: italic;
+  margin: 0;
+}
+
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 2rem;
+  margin-bottom: 50rem;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background: #6c5b7b; /* Purple shade for footer background */
+  text-align: center;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #d8d8d8; /* Light color for contrast */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+  color: #ffffff;
+}
+
+footer {
+  background: #6c5b7b; /* Consistent with nav background */
+  color: #d8d8d8;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow to lift the footer */
+}
+
+footer p {
+  margin: 0;
+}
+
+
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4 url('DALLE-android1.png') no-repeat center center;
+  background-attachment: fixed;
+  background-size: cover; /* Adjust this as needed */
+  color: #333;
+}
+
+/* ... other styles ... */
+
+.intro {
+  background: rgba(192, 108, 132, 0.4); /* Adjust transparency with the last number (alpha channel) */
+  color: #fff;
+  padding: 0px;
+  text-align: center;
+  margin: 100px; /* Space around the .intro section */
+  max-width: 800px; /* Maximum width of the .intro section */
+  margin-bottom: 10rem;
+}
+
+
+
+
+
+
+.intro p {
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7); /* Text shadow for depth */
+  border-radius: 5px; /* Soften edges of the text background */
+  display: inline-block; /* Contain the background to the text width */
+  margin: 1px; /* Adjust margin as necessary */
+  font-weight: bold; /* Adjust as necessary */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.9); /* Creates a soft shadow around text */
+  font-size: 1.2rem;
+  
+
+
+}
+
+article {
+      width: 80%; /* The box will be 80% of its container's width */
+      padding: 5vw; /* Padding scales with the viewport width */
+      margin: 10px auto; /* Centers the box with a fixed margin */
+      max-width: 1200px; /* Ensures that the box does not become too wide on large screens */
+  background-color: #f5deb3; /* wheat color, which resembles light parchment */
+}
+
+footer {
+  background: #6c5b7b;
+  color: #d8d8d8;
+  padding: 1rem 0;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000; /* Ensures the footer is above other content */
+}
+
+/* ... other styles ... */
