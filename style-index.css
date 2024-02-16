@@ -1,0 +1,117 @@
+/* Reset some default styles for a consistent starting point */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f9f9f9;
+    padding: 10px;
+  }
+  
+  header {
+    background-color: #022c43;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+  }
+  
+  h1 {
+    text-shadow: 3px 3px 5px #918383;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .intro {
+    margin-bottom: 2rem;
+    text-align: center;
+    padding: 1rem;
+    background: #e9ecef;
+    border-radius: 5px;
+  }
+  
+  .intro p {
+    font-size: 1.1rem;
+  }
+  
+  article p {
+    text-align: justify;
+    margin-bottom: 1rem;
+  }
+  
+  footer {
+    background-color: #022c43;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer nav ul {
+    list-style-type: none;
+  }
+  
+  footer nav ul li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  footer nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  footer nav a:hover {
+    text-decoration: underline;
+  }
+  
+  footer p {
+    margin-top: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    main {
+      padding: 10px;
+    }
+  
+    footer nav ul {
+      text-align: center;
+      padding: 1rem;
+    }
+  
+    footer nav ul li {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+  
+  .header-android {
+    background-image: url('DALLE-android1.png');
+    background-size: cover;
+    background-position: 25% 35%;
+    background-repeat: no-repeat;
+    height: 300px; /* You can adjust this value based on your design needs */
+  }
+  
+  
+  
