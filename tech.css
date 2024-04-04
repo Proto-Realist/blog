@@ -1,0 +1,71 @@
+/* Basic reset for common elements */
+body, h1, p, ul, li, a {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+/* Body and global settings */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.5;
+  padding: 20px;
+  background-color: #fafafa;
+  color: #333;
+}
+
+/* Header styles */
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+/* Main content area */
+main {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+article p {
+  margin-bottom: 1em;
+}
+
+/* Styling for navigation and links */
+nav ul {
+  list-style: none;
+  background-color: #333;
+  text-align: center;
+  padding: 10px 0;
+  margin: 20px 0;
+}
+
+nav ul li {
+  display: inline;
+}
+
+nav ul li a {
+  color: #fff;
+  padding: 10px 15px;
+  display: inline-block;
+}
+
+nav ul li a:hover {
+  background-color: #555;
+}
+
+/* Responsive design adjustments */
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+
+  main {
+    margin: 10px;
+    padding: 10px;
+  }
+}
