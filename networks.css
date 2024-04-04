@@ -1,0 +1,76 @@
+/* Reset some basic elements */
+body, h1, h2, h3, p, ul {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #e8491d 3px solid;
+}
+
+header h1 {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 20px;
+}
+
+main {
+  padding: 20px;
+}
+
+article {
+  margin-bottom: 20px;
+}
+
+h2, h3 {
+  padding: 10px 0;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.protocols, .models {
+  background: #e2e2e2;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.protocols h3, .models h3 {
+  color: #333;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  background: #fff;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  background: #35424a;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
