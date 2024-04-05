@@ -1,0 +1,68 @@
+<DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, intial-scale=1.o">
+      <title>MPLS Protocol</title>
+      <link rel="stylesheet" href="mpls.css">
+    </head>
+    <body>
+      <header>
+        <h1>Multi Protocol Label Switch (MPLS)</h1>
+      </header>
+      <main>
+        <article>
+          <h3>The Basics of MPLS</h3>
+          <p>This is a protocol that operates at the Network layer in the OSI model. 
+            Because it has attributes that mimic Datalink layer, it is described as 
+            being at layer 2.5 of the OSI Model. Essentially between the Data link and 
+            Network layers.<br><br>
+            
+            It is typically faster than using the standard internet protocols because of its 
+            use of preplanned routes. These routes are called Label Switched Paths (LPS). 
+            Another unique characteristic of MPLS is the Label. While the usual protocols 
+            have the IP address guiding the packet, MPLS uses labels. The funtional difference 
+            is how they traverse the routers on its hops.
+            <br><br>
+            
+            Lets use an analogy to help clarify how this works.
+            <br><br>
+            
+            The typical internet protocol 
+            would be like a driver in a car trying to find their way through rush-hour traffic. 
+            This driver knows the destination address, but does not know how to get there. So 
+            driver, (packet) stops at every intersection (router) along the way to ask for 
+            directions. This is time consuming because a calculation needs to take place at 
+            every hop. Another downside is when the packet runs into a congested or broken 
+            path. It now needs to make the best of what is available to continue on its way.
+            <br><br>
+
+            Now the MPLS packet is more like a passenger riding on a train. A real world train 
+            follows tracks that would put into place long before the train or passenger started 
+            their journey. This means that the engineers were able to plan out the most efficient 
+            routes to avoid damaged areas and congested areas. The tracks in our analogy would 
+            be the Label Switched Paths (LPS) in a network. Just like train tracks are planned 
+            by Railway Engineers, the LPS is laid out by Network Engineers.
+            The LPS is specific to each region where it has been set up. So every packet that 
+            is following this LPS takes the same route through that specific part of the network. 
+            <br><br>
+
+            Now our analogous passenger has a ticket book to ride the train. This would be the Label 
+            on the MPLS packet. Now as the passenger (packet) hops from network to network, they show 
+            the ticket to the router. Then the passenger (packet) goes along for the ride without 
+            asking for any directions.
+            <br><br>
+
+            The benefit to this is that it elminates the need to calculate the next step at each hop, 
+            saving processing time. It also takes the most efficient route around congestion and 
+            obstacles instead of looking for the best way through the problem areas.
+            <br><br>
+
+            
+
+            
+</p>
+        </article>
+      </main>
+    </body>
+  </html>
