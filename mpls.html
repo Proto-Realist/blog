@@ -2,30 +2,30 @@
   <html lang="en">
     <head>
       <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, intial-scale=1.o">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>MPLS Protocol</title>
       <link rel="stylesheet" href="mpls.css">
     </head>
     <body>
       <header>
-        <h1>Multi Protocol Label Switch (MPLS)</h1>
+        <h1>Multi-Protocol Label Switching (MPLS)</h1>
       </header>
       <main>
         <article>
           <h3>The Basics of MPLS</h3>
-          <p>This is a protocol that operates at the Network layer in the OSI model. 
-            Because it has attributes that mimic the Datalink layer, it is described as 
-            being at layer 2.5 of the OSI Model. Essentially between the Data link and 
+          <p>This is a protocol that operates at the network layer in the OSI model. 
+            Because it has attributes that resemble those of the Data Link layer, it is described as 
+            operating at layer 2.5 of the OSI Model. Essentially between the Data link and 
             Network layers.<br><br>
             
             It is typically faster than using the standard internet protocols because of its 
-            use of preplanned routes. These routes are called Label Switched Paths (LPS). 
-            Another unique characteristic of MPLS is the Label. While the usual protocols 
-            have the IP address guiding the packet, MPLS uses labels. The funtional difference 
-            is how they traverse the routers on its hops.
+            use of pre-planned routes. These routes are called Label Switched Paths (LSP). 
+            Another unique characteristic of MPLS is the Label. While traditional protocols 
+            rely on IP addresses to route packets, MPLS uses labels. The functional difference 
+            lies in how they traverse the routers on their hops.
             <br><br>
             
-            Lets use an analogy to help clarify how this works.
+            <strong>Train Ride Analogy</strong>
             <br><br>
             
             The typical internet protocol 
@@ -37,16 +37,16 @@
             path. It now needs to make the best decision of what is available to continue on its way.
             <br><br>
 
-            Now the MPLS packet is more like a passenger riding on a train. A real world train 
-            follows tracks that would be put into place long before the train or passenger started 
+            Now, the MPLS packet is more like a passenger riding on a train. A real-world train 
+            follows tracks that are put into place long before the train or passenger starts 
             their journey. This means that the engineers were able to plan out the most efficient 
             routes to avoid damaged areas and congested areas. This makes for faster paths compared 
-            to last minute adjustments along the the way. For unexpected obstacles, there are backup 
+            to last minute adjustments along the way. For unexpected obstacles, there are backup 
             routes already assigned. The tracks in our analogy would 
-            be the Label Switched Paths (LPS) in a network. Just like train tracks are planned 
-            by Railway Engineers, the LPS is laid out by Network Engineers.
-            The LPS is specific to each region where it has been set up. So every packet that 
-            is following this LPS takes the same route through that specific part of the network. 
+            be the Label Switched Paths (LSP) in a network. Just like train tracks are planned 
+            by Railway Engineers, the LSP is laid out by Network Engineers.
+            The LSP is specific to each region where it has been set up. So every packet that 
+            is following this LSP takes the same route through that specific part of the network. 
             <br><br>
 
             Now our analogous passenger has a ticket book to ride the train. This would be the Label 
@@ -55,14 +55,20 @@
             asking for any directions.
             <br><br>
 
-            The benefit to this is that it elminates the need to calculate the next step at each hop, 
+            <strong>Advantages</strong>
+            <br><br>
+            
+            The benefit to this is that it eliminates the need to calculate the next step at each hop, 
             saving processing time. It also takes the most efficient route around congestion and 
             obstacles instead of looking for the best way through the problem areas.
             <br><br>
 
-            Now the meaning of the name, Multi Protocal Label Switch. Multi Protocol simply means that 
-            it is capable of encapsulating many different types of protocols. The Label Switch part takes 
-            a bit of describing. In our earlier analogy, the Label was much like a ticket that allowed the 
+            <strong>Name Break Down</strong>
+            <br><br>
+
+            Now, the meaning of the name Multi-Protocol Label Switching. 'Multi Protocol' simply means that 
+            it is capable of encapsulating many different types of protocols. The 'Label Switching' part requires  
+            some explanation. In our earlier analogy, the label was much like a ticket that allowed the 
             packet to get onto the Label Switch Path (LSP).<br><br>
 
             Because of the vastness of the internet, there are many individual LSPs that a packet may need 
