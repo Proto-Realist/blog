@@ -1,0 +1,53 @@
+/* mpls.css - Style for MPLS Protocol Article */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #005a9c;
+    color: #fff;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+main {
+    padding: 20px;
+}
+
+article {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+article h3 {
+    color: #005a9c;
+}
+
+p {
+    text-align: justify;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+}
+
+strong {
+    color: #005a9c;
+}
