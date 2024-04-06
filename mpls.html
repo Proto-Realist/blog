@@ -14,7 +14,7 @@
         <article>
           <h3>The Basics of MPLS</h3>
           <p>This is a protocol that operates at the Network layer in the OSI model. 
-            Because it has attributes that mimic Datalink layer, it is described as 
+            Because it has attributes that mimic the Datalink layer, it is described as 
             being at layer 2.5 of the OSI Model. Essentially between the Data link and 
             Network layers.<br><br>
             
@@ -34,13 +34,15 @@
             driver, (packet) stops at every intersection (router) along the way to ask for 
             directions. This is time consuming because a calculation needs to take place at 
             every hop. Another downside is when the packet runs into a congested or broken 
-            path. It now needs to make the best of what is available to continue on its way.
+            path. It now needs to make the best decision of what is available to continue on its way.
             <br><br>
 
             Now the MPLS packet is more like a passenger riding on a train. A real world train 
-            follows tracks that would put into place long before the train or passenger started 
+            follows tracks that would be put into place long before the train or passenger started 
             their journey. This means that the engineers were able to plan out the most efficient 
-            routes to avoid damaged areas and congested areas. The tracks in our analogy would 
+            routes to avoid damaged areas and congested areas. This makes for faster paths compared 
+            to last minute adjustments along the the way. For unexpected obstacles, there are backup 
+            routes already assigned. The tracks in our analogy would 
             be the Label Switched Paths (LPS) in a network. Just like train tracks are planned 
             by Railway Engineers, the LPS is laid out by Network Engineers.
             The LPS is specific to each region where it has been set up. So every packet that 
@@ -58,7 +60,15 @@
             obstacles instead of looking for the best way through the problem areas.
             <br><br>
 
-            
+            Now the meaning of the name, Multi Protocal Label Switch. Multi Protocol simply means that 
+            it is capable of encapsulating many different types of protocols. The Label Switch part takes 
+            a bit of describing. In our earlier analogy, the Label was much like a ticket that allowed the 
+            packet to get onto the Label Switch Path (LSP).<br><br>
+
+            Because of the vastness of the internet, there are many individual LSPs that a packet may need 
+            travel to get to its destination. Each LSP requires a distinct label for the packet to travel 
+            its path. So the switching part happens when the packet reaches the end of the LSP and needs to 
+            start on another. The old label is then 'switched' for a new one that matches the new LSP. 
 
             
 </p>
