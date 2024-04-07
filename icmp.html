@@ -13,9 +13,18 @@
           <strong>ICMP Basics</strong><br><br>
           Introduced in 1981, the Internet Control Message Protocol (ICMP) is a fundamental part of the TCP/IP suite. Because of its automated messages that 
           provide feedback about a packets journey, it is essential for network diagnostics. It is most commonly known for its error reporting messages, like 
-          'Desitination Unreachable' and its utilization in diagnostic tools like Ping and TracerRoute and NMAP.<br><br>
+          'Desitination Unreachable' and its utilization within diagnostic tools like Ping and TraceRoute.<br><br>
 
-          
+          Ping takes advantage of ICMPs Echo Request and Echo Reply feature to see if a host reachable. TraceRoute uses its Time To Live (TTL) feature to 
+          trace the journey of a packet to and from a destination. ICMP has other features that 
+
+          The messages have a naming scheme in the type and code format. Here are some examples.
+          <ul>
+            <li>Echo Request (Type 8)</li>
+            <li>Echo Reply (Type 0)</li>
+            <li>Time Exceeded (Type 11)</li>
+            <li>Parameter Problem (Type 12)</li>
+          </ul>
           
         </p>
       </article>
